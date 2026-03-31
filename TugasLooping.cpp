@@ -22,3 +22,7 @@ bool cekPrima(int n)
     }
     return true;
 }
+
+// Function cek bilangan Fibonacci (pakai while)
+bool cekFibonacci(int n)
+{
