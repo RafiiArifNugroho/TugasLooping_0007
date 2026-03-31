@@ -30,3 +30,5 @@ bool cekFibonacci(int n)
 
     while (a <= n)
     {
+        if (a == n)
+        {
