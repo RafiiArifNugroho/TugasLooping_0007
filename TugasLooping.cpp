@@ -74,3 +74,10 @@ int main()
     {
         tampilMenu();
         cin >> pilihan;
+
+        switch (pilihan)
+        {
+        case 1:
+            inputAngka();
+            outputHasil(cekPrima(angka), "Prima");
+            break;
