@@ -47,3 +47,12 @@ void inputAngka()
     cout << "Masukkan angka: ";
     cin >> angka;
 }
+
+// Prosedur output
+void outputHasil(bool hasil, string jenis)
+{
+    if (hasil)
+        cout << angka << " adalah bilangan " << jenis << endl;
+    else
+        cout << angka << " bukan bilangan " << jenis << endl;
+}
