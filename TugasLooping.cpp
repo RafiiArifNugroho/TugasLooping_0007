@@ -32,3 +32,5 @@ bool cekFibonacci(int n)
     {
         if (a == n)
         {
+            return true;
+        }
