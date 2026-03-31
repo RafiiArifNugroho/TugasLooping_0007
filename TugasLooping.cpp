@@ -86,3 +86,7 @@ int main()
             inputAngka();
             outputHasil(cekFibonacci(angka), "Fibonacci");
             break;
+
+        case 0:
+            cout << "Program selesai." << endl;
+            return 0;
